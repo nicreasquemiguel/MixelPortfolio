@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+      font-family: Nectarine;
+      font-weight: 400;
+      src: local('Nectarine'), url(assets/fonts/Nectarine.ttf) format("truetype");
+    }
+
+.grainy {
+    background-image: url(../public/b.svg);
+}
